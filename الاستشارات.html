@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ar" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="assets/logo.png" type="image/png" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css"
@@ -16,11 +16,11 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" href="css/الاستشارات.css">
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/الاستشارات.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div id="scrollTopBtn" class="arrow">↑</div>
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
@@ -318,62 +318,56 @@
       </div>
     </div>
     <div class="hero">
-    <p> <span>الاستشارات</span></p>
-    <div class="links">
-        <a href="index.html"> <i class="fal fa-link"></i> الرئيسية</a>  / 
+      <p><span>الاستشارات</span></p>
+      <div class="links">
+        <a href="index.html"> <i class="fal fa-link"></i> الرئيسية</a> /
         <a href="الاستشارات.html">الاستشارات </a>
-    </div>
+      </div>
     </div>
     <section class="consultation-section">
-  <div class="consultation-card">
+      <div class="consultation-card">
+        <h2 class="form-title">
+          <span class="icon">💼</span>
+          طلب <span>استشارة</span>
+        </h2>
 
-    <h2 class="form-title">
-      <span class="icon">💼</span>
-      طلب <span>استشارة</span>
-    </h2>
+        <form class="consultation-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label>الاسم <span>*</span></label>
+              <input type="text" placeholder="الاسم" />
+            </div>
 
-    <form class="consultation-form">
+            <div class="form-group">
+              <label>نوع الاستشارة <span>*</span></label>
+              <input type="text" placeholder="نوع الاستشارة" />
+            </div>
+          </div>
 
-      <div class="form-row">
-        <div class="form-group">
-          <label>الاسم <span>*</span></label>
-          <input type="text" placeholder="الاسم" />
-        </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>البريد الإلكتروني <span>*</span></label>
+              <input type="email" placeholder="البريد الإلكتروني" />
+            </div>
 
-        <div class="form-group">
-          <label>نوع الاستشارة <span>*</span></label>
-          <input type="text" placeholder="نوع الاستشارة" />
-        </div>
+            <div class="form-group">
+              <label>العمر <span>*</span></label>
+              <input type="number" placeholder="العمر" />
+            </div>
+          </div>
+
+          <div class="form-group full">
+            <label>موضوع الاستشارة <span>*</span></label>
+            <textarea placeholder="موضوع الاستشارة"></textarea>
+          </div>
+
+          <div class="form-actions">
+            <button type="reset" class="btn cancel">إلغاء</button>
+            <button type="submit" class="btn submit">التقديم الآن</button>
+          </div>
+        </form>
       </div>
-
-      <div class="form-row">
-        <div class="form-group">
-          <label>البريد الإلكتروني <span>*</span></label>
-          <input type="email" placeholder="البريد الإلكتروني" />
-        </div>
-
-        <div class="form-group">
-          <label>العمر <span>*</span></label>
-          <input type="number" placeholder="العمر" />
-        </div>
-      </div>
-
-      <div class="form-group full">
-        <label>موضوع الاستشارة <span>*</span></label>
-        <textarea placeholder="موضوع الاستشارة"></textarea>
-      </div>
-
-      <div class="form-actions">
-        <button type="reset" class="btn cancel">إلغاء</button>
-        <button type="submit" class="btn submit">التقديم الآن</button>
-      </div>
-
-    </form>
-  </div>
-</section>
-
-
-
+    </section>
 
     <footer class="footer pt-5 text-white">
       <div class="container">
@@ -435,6 +429,7 @@
       </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
