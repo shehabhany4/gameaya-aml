@@ -1,0 +1,138 @@
+.hero{
+    width: 100%;
+    height: 30vh;
+    margin-top: 20vh;
+    background-image: url("/assets/2024_05_05_11_37_02_mn-nhn.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 4% 1.5%;
+    p{
+        color: white;
+        font-size: 1.8em;
+        font-weight: 400;
+        span{
+            color: rgb(38, 148, 245);
+        }
+    }
+    .links{
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+  .contact-section {
+            padding: 60px 0;
+        }
+        
+        .section-title {
+            color: #00a9e0;
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        
+        .section-subtitle {
+            color: #6c757d;
+            font-size: 1rem;
+            margin-bottom: 40px;
+        }
+        
+        .form-container {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+        }
+        
+        .form-label {
+            color: #333;
+            font-weight: 600;
+            margin-bottom: 10px;
+            display: block;
+        }
+        
+        .required {
+            color: #dc3545;
+            margin-right: 5px;
+        }
+        
+        .form-control {
+            border: 2px solid #e9ecef;
+            border-radius: 10px;
+            padding: 12px 15px;
+            font-size: 0.95rem;
+            transition: all 0.3s;
+        }
+        
+        .form-control:focus {
+            border-color: #00a9e0;
+            box-shadow: 0 0 0 0.2rem rgba(0, 169, 224, 0.15);
+        }
+        
+        textarea.form-control {
+            min-height: 150px;
+            resize: vertical;
+        }
+        
+        .btn-submit {
+            background: linear-gradient(135deg, #00a9e0 0%, #0088b8 100%);
+            color: white;
+            border: none;
+            padding: 14px 50px;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s;
+            width: 100%;
+        }
+        
+        .btn-submit:hover {
+            background: linear-gradient(135deg, #0088b8 0%, #006d94 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 169, 224, 0.3);
+        }
+        
+        .btn-cancel {
+            background: transparent;
+            color: #6c757d;
+            border: 2px solid #e9ecef;
+            padding: 14px 50px;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s;
+            width: 100%;
+        }
+        
+        .btn-cancel:hover {
+            background: #f8f9fa;
+            border-color: #dee2e6;
+        }
+        
+        .map-container {
+            position: relative;
+            height: 100%;
+            min-height: 600px;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+        }
+        
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        
+        @media (max-width: 991px) {
+            .map-container {
+                min-height: 400px;
+                margin-top: 30px;
+            }
+        }
+        
+        .form-row {
+            margin-bottom: 25px;
+        }

@@ -1,0 +1,601 @@
+.hero {
+  margin-top: 18vh;
+  position: relative;
+  
+  .carousel,
+  .carousel-item,
+  .carousel-item img {
+    height: 80vh;
+  }
+
+  .carousel-item img {
+    object-fit: cover;
+  }
+  
+  .carousel-control-prev {
+    display: flex !important;
+    justify-content: flex-start !important;
+    width: 5vw;
+  }
+  
+  .carousel-control-next {
+    display: flex !important;
+    justify-content: flex-end !important;
+    width: 5vw;
+  }
+  
+  .content1 {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    z-index: 1;
+    background-image: linear-gradient(to left, rgb(2, 96, 178), transparent);
+    display: flex;
+    padding: 0 5em 0 0;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    
+    .items {
+      position: absolute;
+      top: 25%;
+      animation: coitem 1s ease forwards;
+    }
+    
+    h3,
+    p {
+      color: white;
+    }
+    
+    button {
+      margin-top: 5em;
+      padding: 0.8em 1em;
+      background-color: rgb(62, 118, 240);
+      color: white;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 16px;
+      
+      &:hover {
+        background-color: #001f8d;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 768px) {
+  .hero {
+    margin-top: 10vh;
+    
+    .carousel,
+    .carousel-item,
+    .carousel-item img {
+      height: 60vh;
+    }
+    .carousel-control-next,.carousel-control-prev{
+      visibility: hidden;
+    }
+    .content1 {
+      width: 100%;
+      padding: 0 2em;
+      justify-content: flex-end;
+      align-items: center;
+      
+      .items {
+        position: relative;
+        top: auto;
+        bottom: 10%;
+        width: 100%;
+      }
+      
+      h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+      }
+      
+      p {
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+      }
+      
+      button {
+        margin-top: 2em;
+        width: auto;
+        padding: 0.8em 2em;
+      }
+    }
+    
+    
+    .carousel-control-prev,
+    .carousel-control-next {
+      width: 10vw;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    .carousel,
+    .carousel-item,
+    .carousel-item img {
+      height: 50vh;
+    }
+    
+    .content1 {
+      padding: 0 1.5em;
+      
+      .items {
+        bottom: 8%;
+      }
+      
+      h3 {
+        font-size: 1.2rem;
+      }
+      
+      p {
+        font-size: 0.8rem;
+      }
+      
+      button {
+        margin-top: 1.5em;
+        padding: 0.7em 1.5em;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@keyframes coitem {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-1em);
+  }
+}
+
+.about {
+  margin-top: 10vh;
+  height: 120vh;
+  padding: 1%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  .right {
+    width: 45%;
+    h3 {
+      color: rgb(2, 2, 70);
+      span {
+        color: rgb(26, 94, 240);
+      }
+    }
+    p {
+      font-size: 18px;
+      color: #7a7878;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: rgb(62, 118, 240);
+      color: white;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: rgb(2, 2, 70);
+    }
+  }
+  .left {
+    width: 45%;
+    height: 100%;
+    overflow: hidden;
+    img {
+      width: 100%;
+      border-radius: 20px;
+    }
+  }
+}
+
+.all {
+  padding-bottom: 10vh;
+  background-image: url(assets/OIP.webp);
+
+  .services {
+    min-height: 70vh;
+
+    h4 {
+      color: #001f8d;
+    }
+
+    .carousel-container {
+      overflow: hidden;
+      position: relative;
+      height: 35vh;
+    }
+
+    .carousel-track {
+      display: flex;
+      gap: 1.5rem;
+      transition: transform 0.5s ease-in-out;
+      direction: rtl;
+    }
+
+    .service-card-wrapper {
+      min-width: calc(25% - 1.125rem);
+      flex-shrink: 0;
+    }
+
+    .carousel-control-btn {
+      width: 40px;
+      height: 40px;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #4168f2;
+      border: none;
+
+      &:hover {
+        background: #001f8d;
+      }
+    }
+
+    .service-card {
+      background: #fff;
+      border-radius: 18px;
+      padding: 30px 20px;
+      text-align: center;
+      height: 35vh !important;
+      transition: 0.4s;
+      cursor: pointer;
+
+      img {
+        width: 70px;
+        height: 70px;
+        margin-bottom: 15px;
+      }
+
+      h5 {
+        font-weight: 700;
+        color: #001f8d;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 14px;
+        color: #555;
+      }
+
+      &:hover {
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        background-color: #0066a2;
+
+        p,
+        h5 {
+          color: #fff;
+        }
+      }
+    }
+
+    .but {
+      margin-top: 5vh;
+
+      .btn {
+        background: #4168f2;
+        color: white;
+        padding: 12px 40px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        position: relative;
+        z-index: 3;
+
+        &:hover {
+          background: #001f8d;
+        }
+      }
+    }
+
+    /* Responsive */
+    @media (max-width: 992px) {
+      .service-card-wrapper {
+        min-width: calc(33.333% - 1rem);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .service-card-wrapper {
+        min-width: calc(50% - 0.75rem);
+      }
+    }
+
+    @media (max-width: 576px) {
+      .service-card-wrapper {
+        min-width: 100%;
+      }
+    }
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 45px;
+    height: 45px;
+    background: #009ad6;
+    border-radius: 50%;
+    top: -60px;
+  }
+
+  .carousel-control-prev {
+    right: 60px;
+    left: auto;
+  }
+
+  .carousel-control-next {
+    right: 0;
+  }
+  #servicesCarousel {
+    height: 60vh;
+  }
+  .but {
+    margin-top: 50vh;
+    z-index: 3;
+    .btn {
+      cursor: pointer;
+      &:hover {
+        background-color: #001f8d;
+      }
+    }
+  }
+  .cards-section {
+    overflow: hidden;
+    width: 100%;
+    height: 45vh;
+    background-image: linear-gradient(
+      to left,
+      rgb(5, 5, 105),
+      rgb(62, 62, 248)
+    );
+    padding: 5vh 2%;
+    .up {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 5vh;
+      p {
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+      }
+      button {
+        padding: 1% 2%;
+        border: none;
+        background-color: #0d6efd;
+        color: white;
+        border-radius: 20px;
+        &:hover {
+          background-color: #001f8d;
+        }
+      }
+    }
+    .cards-track {
+      display: flex;
+      gap: 20px;
+      width: max-content;
+      animation: scroll 50s linear infinite;
+      overflow: hidden;
+      .card {
+        min-width: 200px;
+        height: 110px;
+        background: white;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      }
+    }
+  }
+}
+
+.counter-section {
+  padding: 80px 0;
+  background: #f8f9fa;
+}
+
+.counter-box {
+  background: #fff;
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
+}
+
+.counter-number {
+  font-size: 36px;
+  font-weight: 700;
+  color: #17a2b8;
+}
+
+.counter-number .plus {
+  color: #17a2b8;
+  margin-left: 5px;
+  font-size: 28px;
+}
+
+.counter-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #343a40;
+}
+
+.counter-subtitle {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+@media (max-width: 991px) {
+  .counter-box {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .counter-number {
+    font-size: 28px;
+  }
+  .counter-icon {
+    font-size: 36px;
+  }
+  .counter-title {
+    font-size: 18px;
+  }
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(50%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.media-section {
+  min-height: 70vh;
+
+  h4 {
+    color: #0e1b3d;
+    margin-right: 48%;
+  }
+
+  .btn-primary {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #4168f2;
+    border: none;
+
+    &:hover {
+      background: #001f8d;
+    }
+  }
+
+  .news-slider-wrapper {
+    overflow: hidden;
+    position: relative;
+    padding: 1%;
+    width: 100%;
+  }
+
+  .news-slider {
+    display: flex;
+    gap: 1.5rem;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .news-card-wrapper {
+    flex-shrink: 0;
+    width: 33%;
+    max-height: 80vh;
+  }
+
+  .news-card {
+    border-radius:30px 0 ;
+    overflow: hidden;
+    border:1px solid rgba(182, 182, 182, 0.458) ;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    height: 100%;
+    width: 100%;
+    padding: 0 0 3vh 0;
+    background-color: rgba(230, 228, 228, 0.448);
+
+    &:hover img {
+      transform: scale(1.1);
+    }
+
+    .image {
+      min-height: 40vh;
+      overflow: hidden;
+    }
+    img {
+      height: 100%;
+      object-fit: cover;
+      width: 100%;
+      transition: 0.5s;
+    }
+
+    .card-body {
+      padding: 1.5rem;
+    }
+
+    h5 {
+      color: #0e1b3d;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+    }
+
+    .btn-info {
+      background: #4066fa;
+      border: none;
+      padding: 8px 24px;
+
+      &:hover {
+        background: #032b7a;
+      }
+    }
+  }
+
+  .but {
+    margin-top: 5vh;
+    text-align: center;
+    height: 8vh;
+    .btn {
+      margin: auto;
+      width: 165px;
+      height: 90%;
+      padding: 1% 0;
+      background: #4168f2;
+      color: white;
+      &:hover {
+        background: #001f8d;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .news-card-wrapper {
+      min-width: 280px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .news-card-wrapper {
+      min-width: 90%;
+    }
+  }
+}
+
+

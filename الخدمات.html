@@ -1,0 +1,447 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/logo.png" type="image/png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/الخدمات.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="scrollTopBtn" class="arrow">↑</div>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="assets/logo.png" alt="logo" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#mobileMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+              >
+                عن الجمعية
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">من نحن</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">المدير التنفيذي</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">أعضاء مجلس الإدارة</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">اعضاء الجمعية العمومية</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">كلمة رئيس مجلس الإداره</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">الإطار الإستراتيجي</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="المركز الاعلامي.html"
+                >المركز الاعلامي</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="الخدمات.html">الخدمات الإلكترونية</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="التقارير.html">التقارير السنوية</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+              >
+                الحوكمة والشفافية
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">اللوائح والسياسات</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">لجان الجمعية</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">التقارير السنوية</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">الإحصائيات</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">محاضر إجتماعات الجمعية</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="الاستشارات.html">الإستشارات</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+              >
+                التوظيف والتطوع
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">الوظائف</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">التطوع</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="التوعيه.html">التوعية</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+              >
+                الشركاء
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">الشركاء</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">طلب شراكه</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="اتصل بنا.html">اتصل بنا</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="mobileMenu">
+      <div class="offcanvas-header">
+        <img src="assets/logo.png" alt="logo" style="height: 50px" />
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="accordion accordion-flush" id="mobileAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#aboutCollapse"
+              >
+                عن الجمعية
+              </button>
+            </h2>
+            <div
+              id="aboutCollapse"
+              class="accordion-collapse collapse"
+              data-bs-parent="#mobileAccordion"
+            >
+              <div class="accordion-body">
+                <a href="#">من نحن</a>
+                <a href="#">المدير التنفيذي</a>
+                <a href="#">أعضاء مجلس الإدارة</a>
+                <a href="#">اعضاء الجمعية العمومية</a>
+                <a href="#">كلمة رئيس مجلس الإداره</a>
+                <a href="#">الإطار الإستراتيجي</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <a href="المركز الاعلامي.html" class="mobile-nav-link">
+              <span>المركز الاعلامي</span>
+            </a>
+          </div>
+
+          <div class="accordion-item">
+            <a href="الخدمات.html" class="mobile-nav-link">
+              <span>الخدمات الإلكترونية</span>
+            </a>
+          </div>
+
+          <div class="accordion-item">
+            <a href="التقارير.html" class="mobile-nav-link">
+              <span>التقارير السنوية</span>
+            </a>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#governanceCollapse"
+              >
+                الحوكمة والشفافية
+              </button>
+            </h2>
+            <div
+              id="governanceCollapse"
+              class="accordion-collapse collapse"
+              data-bs-parent="#mobileAccordion"
+            >
+              <div class="accordion-body">
+                <a href="#">اللوائح والسياسات</a>
+                <a href="#">لجان الجمعية</a>
+                <a href="#">التقارير السنوية</a>
+                <a href="#">الإحصائيات</a>
+                <a href="#">محاضر إجتماعات الجمعية</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <a href="الاستشارات.html" class="mobile-nav-link">
+              <span>الإستشارات</span>
+            </a>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#employmentCollapse"
+              >
+                التوظيف والتطوع
+              </button>
+            </h2>
+            <div
+              id="employmentCollapse"
+              class="accordion-collapse collapse"
+              data-bs-parent="#mobileAccordion"
+            >
+              <div class="accordion-body">
+                <a href="#">الوظائف</a>
+                <a href="#">التطوع</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <a href="التوعيه.html" class="mobile-nav-link">
+              <span>التوعية</span>
+            </a>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#partnersCollapse"
+              >
+                الشركاء
+              </button>
+            </h2>
+            <div
+              id="partnersCollapse"
+              class="accordion-collapse collapse"
+              data-bs-parent="#mobileAccordion"
+            >
+              <div class="accordion-body">
+                <a href="#">الشركاء</a>
+                <a href="#">طلب شراكه</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <a href="اتصل بنا.html" class="mobile-nav-link">
+              <span>اتصل بنا</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mobile-footer">
+      <div class="mobile-contact">
+        <div class="contact-item">
+          <i class="fas fa-phone"></i>
+          <div>
+            <span class="contact-label">الهاتف</span>
+            <div>+966591955655</div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <span class="contact-label">البريد الإلكتروني</span>
+            <div>hope.psy@outlook.com</div>
+          </div>
+        </div>
+      </div>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+      </div>
+    </div>
+    <div class="hero">
+    <p>خدمات <span>الجمعية</span></p>
+    <div class="links">
+        <a href="index.html"> <i class="fal fa-link"></i> الرئيسية</a>  / 
+        <a href="الخدمات.html">خدمات الجمعية</a>
+    </div>
+    </div>
+
+    <section class="services py-5">
+  <div class="container">
+    <div class="services-grid">
+
+      <div class="service-card">
+        <img src="assets/2024_03_26_11_09_17_alhmlat-altoaaoy.png" alt="" />
+        <h5>الاستشارة النفسية الفردية</h5>
+        <p>تقدم الجمعية خدمات الاستشارات النفسية الفردية للأشخاص الذين يعانون من الأزمات النفسية</p>
+      </div>
+
+      <div class="service-card">
+        <img src="assets/2024_03_26_11_09_43_albramg-altdryby-o-althkafy.png" alt="" />
+        <h5>اختبارات نفسية</h5>
+        <p>توفر الجمعية مجموعة من الاختبارات النفسية المعتمدة</p>
+      </div>
+
+      <div class="service-card">
+        <img src="assets/2024_03_26_11_10_31_alastsharat.png" alt="" />
+        <h5>الخط الساخن</h5>
+        <p>توفر الجمعية خطًا ساخنًا لتقديم الدعم النفسي</p>
+      </div>
+
+      <div class="service-card">
+        <img src="assets/2025_02_18_05_18_41_alastshar-alnfsy-alfrdy.png" alt="" />
+        <h5>العلاج النفسي الجماعي</h5>
+        <p>جلسات دعم نفسي جماعي</p>
+      </div>
+
+      <div class="service-card">
+        <img src="assets/2025_02_24_10_37_41_mgmoaaat-aldaam.png" alt="" />
+        <h5>الشراكات الاجتماعية</h5>
+        <p>تعزيز التعاون مع الجهات المختلفة</p>
+      </div>
+
+      <div class="service-card">
+        <img src="assets/2025_02_24_10_38_01_alkhdmat-altahyly.png" alt="" />
+        <h5>الندوات وورش العمل</h5>
+        <p>نشر الوعي بالصحة النفسية</p>
+      </div>
+
+      <div class="service-card">
+        <img src="assets/2025_02_24_10_38_22_alndoat-o-orsh-alaaml.png" alt="" />
+        <h5>الخدمات التأهيلية</h5>
+        <p>إعادة دمج المرضى في المجتمع</p>
+      </div>
+
+      <div class="service-card">
+        <img src="assets/2025_02_24_10_38_37_alshrakat-alagtmaaay.png" alt="" />
+        <h5>مجموعات الدعم</h5>
+        <p>دعم جماعي للحالات النفسية</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+    <footer class="footer pt-5 text-white">
+      <div class="container">
+        <div class="row gy-4 align-items-start">
+          <div class="col-lg-3 col-md-12 text-center text-lg-end">
+            <img src="assets/logo.png" alt="logo" class="footer-logo" />
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <h5 class="mb-4 fw-bold">عن الجمعية</h5>
+            <ul class="list-unstyled footer-links">
+              <li><a href="#">عن الجمعية</a></li>
+              <li><a href="#">الخدمات الإلكترونية</a></li>
+              <li><a href="#">المبادرات</a></li>
+              <li><a href="#">التوظيف والتطوع</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <h5 class="mb-4 fw-bold">روابط مهمة</h5>
+            <ul class="list-unstyled footer-links">
+              <li><a href="#">اللوائح والسياسات</a></li>
+              <li><a href="#">المركز الإعلامي</a></li>
+              <li><a href="#">اتصل بنا</a></li>
+              <li><a href="#">الإحصائيات</a></li>
+              <li><a href="#">الشركاء</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <h5 class="mb-4 fw-bold">للتواصل معنا</h5>
+
+            <p class="mb-1">
+              <i class="bi bi-envelope me-2 text-info"></i>
+              البريد الإلكتروني :
+            </p>
+            <p class="text-light">hope.psy@outlook.com</p>
+
+            <p class="mb-1">
+              <i class="bi bi-telephone me-2 text-info"></i>
+              الهاتف :
+            </p>
+            <p class="text-light">+966591955655</p>
+
+            <div class="d-flex gap-3 mt-3 social-icons">
+              <a href="#"><i class="bi bi-whatsapp"></i></a>
+              <a href="#"><i class="bi bi-linkedin"></i></a>
+              <a href="#"><i class="bi bi-youtube"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-twitter-x"></i></a>
+              <a href="#"><i class="bi bi-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom text-center py-3 mt-4">
+        © hope 2025 - جميع الحقوق محفوظة
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

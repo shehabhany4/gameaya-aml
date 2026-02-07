@@ -1,0 +1,103 @@
+.consultation-section {
+  background: #f6f9fc;
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.consultation-card {
+  background: #fff;
+  width: 900px;
+  max-width: 100%;
+  padding: 60px;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  text-align: center;
+  font-size: 26px;
+  color: #0e1b3d;
+  margin-bottom: 50px;
+}
+
+.form-title span {
+  color: #00a8e8;
+}
+
+.consultation-form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.form-row {
+  display: flex;
+  gap: 30px;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group.full {
+  width: 100%;
+}
+
+label {
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #555;
+}
+
+label span {
+  color: red;
+}
+
+input,
+textarea {
+  padding: 18px 20px;
+  border-radius: 15px;
+  border: none;
+  background: #f5f7fa;
+  font-size: 15px;
+  outline: none;
+  box-shadow: inset 0 0 0 1px #eee;
+}
+
+textarea {
+  min-height: 150px;
+  resize: none;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 14px 50px;
+  border-radius: 30px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn.submit {
+  background: #00a8e8;
+  color: #fff;
+}
+
+.btn.cancel {
+  background: #fff;
+  border: 1px solid #ddd;
+  color: #333;
+}
+
+.btn.submit:hover {
+  background: #008fc7;
+}

@@ -1,0 +1,934 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/logo.png" type="image/png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>جمعية أمل للأزمات النفسية</title>
+  </head>
+  <body>
+    <div id="scrollTopBtn" class="arrow">↑</div>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="assets/logo.png" alt="logo" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#mobileMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+              >
+                عن الجمعية
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">من نحن</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">المدير التنفيذي</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">أعضاء مجلس الإدارة</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">اعضاء الجمعية العمومية</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">كلمة رئيس مجلس الإداره</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">الإطار الإستراتيجي</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="المركز الاعلامي.html"
+                >المركز الاعلامي</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="الخدمات.html">الخدمات الإلكترونية</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="التقارير.html">التقارير السنوية</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+              >
+                الحوكمة والشفافية
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">اللوائح والسياسات</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">لجان الجمعية</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">التقارير السنوية</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">الإحصائيات</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">محاضر إجتماعات الجمعية</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="الاستشارات.html">الإستشارات</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+              >
+                التوظيف والتطوع
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">الوظائف</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">التطوع</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="التوعيه.html">التوعية</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+              >
+                الشركاء
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">الشركاء</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">طلب شراكه</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="اتصل بنا.html">اتصل بنا</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="mobileMenu">
+      <div class="offcanvas-header">
+        <img src="assets/logo.png" alt="logo" style="height: 50px" />
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="accordion accordion-flush" id="mobileAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#aboutCollapse"
+              >
+                عن الجمعية
+              </button>
+            </h2>
+            <div
+              id="aboutCollapse"
+              class="accordion-collapse collapse"
+              data-bs-parent="#mobileAccordion"
+            >
+              <div class="accordion-body">
+                <a href="#">من نحن</a>
+                <a href="#">المدير التنفيذي</a>
+                <a href="#">أعضاء مجلس الإدارة</a>
+                <a href="#">اعضاء الجمعية العمومية</a>
+                <a href="#">كلمة رئيس مجلس الإداره</a>
+                <a href="#">الإطار الإستراتيجي</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <a href="المركز الاعلامي.html" class="mobile-nav-link">
+              <span>المركز الاعلامي</span>
+            </a>
+          </div>
+
+          <div class="accordion-item">
+            <a href="الخدمات.html" class="mobile-nav-link">
+              <span>الخدمات الإلكترونية</span>
+            </a>
+          </div>
+
+          <div class="accordion-item">
+            <a href="التقارير.html" class="mobile-nav-link">
+              <span>التقارير السنوية</span>
+            </a>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#governanceCollapse"
+              >
+                الحوكمة والشفافية
+              </button>
+            </h2>
+            <div
+              id="governanceCollapse"
+              class="accordion-collapse collapse"
+              data-bs-parent="#mobileAccordion"
+            >
+              <div class="accordion-body">
+                <a href="#">اللوائح والسياسات</a>
+                <a href="#">لجان الجمعية</a>
+                <a href="#">التقارير السنوية</a>
+                <a href="#">الإحصائيات</a>
+                <a href="#">محاضر إجتماعات الجمعية</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <a href="الاستشارات.html" class="mobile-nav-link">
+              <span>الإستشارات</span>
+            </a>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#employmentCollapse"
+              >
+                التوظيف والتطوع
+              </button>
+            </h2>
+            <div
+              id="employmentCollapse"
+              class="accordion-collapse collapse"
+              data-bs-parent="#mobileAccordion"
+            >
+              <div class="accordion-body">
+                <a href="#">الوظائف</a>
+                <a href="#">التطوع</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <a href="التوعيه.html" class="mobile-nav-link">
+              <span>التوعية</span>
+            </a>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#partnersCollapse"
+              >
+                الشركاء
+              </button>
+            </h2>
+            <div
+              id="partnersCollapse"
+              class="accordion-collapse collapse"
+              data-bs-parent="#mobileAccordion"
+            >
+              <div class="accordion-body">
+                <a href="#">الشركاء</a>
+                <a href="#">طلب شراكه</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <a href="اتصل بنا.html" class="mobile-nav-link">
+              <span>اتصل بنا</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mobile-footer">
+      <div class="mobile-contact">
+        <div class="contact-item">
+          <i class="fas fa-phone"></i>
+          <div>
+            <span class="contact-label">الهاتف</span>
+            <div>+966591955655</div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <span class="contact-label">البريد الإلكتروني</span>
+            <div>hope.psy@outlook.com</div>
+          </div>
+        </div>
+      </div>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+      </div>
+    </div>
+
+    <section class="hero">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="content1">
+            <div class="items">
+              <h3>جمعية أمل للأزمات النفسية</h3>
+              <p>المساهمه في تحقيق الصحه النفسيه والاندماج الفعال مع المجتمع</p>
+              <button class="btn btn-primary rounded-pill px-4">
+                اعرف المزيد
+              </button>
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <img
+              src="assets/2025_03_02_02_02_51_gmaay-alaml.png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/2025_03_02_02_07_44_alshh-alnfsyh.png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="about py-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md-6 mb-4 mb-md-0 order-2 order-md-1">
+            <h3 style="color: rgb(2, 2, 70)">
+              معلومات عن <span style="color: rgb(26, 94, 240)">الجمعية</span>
+            </h3>
+            <p style="font-size: 18px; color: #7a7878">
+              جمعية أمل للأزمات النفسية هي جمعية أهلية غير ربحية مرخصة من المركز
+              الوطني لتنمية القطاع غير الربحي بترخيص رقم 5369، الجمعية عضو في
+              تحالف جمعيات الإرشاد والصحة النفسية، تحت إشراف المركز الوطني
+              لتعزيز الصحة النفسية، تهدف إلى تقديم خدمات الدعم النفسي للأشخاص
+              الذين يعانون من الأزمات النفسية، وتأسست عام 2023 من قبل مجموعة من
+              المتطوعين المتخصصين الذين يؤمنون بأهمية الصحة النفسية وحق الجميع
+              في الحصول على الدعم اللازم.
+            </p>
+            <button
+              class="btn btn-primary rounded-pill px-4 mt-3"
+              style="background-color: rgb(62, 118, 240); border: none"
+            >
+              اعرض المزيد
+            </button>
+          </div>
+          <div class="col-md-6 text-center order-1 order-md-2">
+            <img
+              class="img-fluid rounded-4"
+              src="assets/2025_03_05_03_24_54_matha-taarf-aana.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="all">
+      <section class="services py-5">
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center mb-4">
+            <h4 class="fw-bold services-title">الخدمات الالكترونية</h4>
+
+            <div class="d-flex gap-2">
+              <button
+                class="btn btn-primary rounded-circle carousel-control-btn"
+                id="prevBtn"
+              >
+                <i class="fas fa-chevron-right"></i>
+              </button>
+
+              <button
+                class="btn btn-primary rounded-circle carousel-control-btn"
+                id="nextBtn"
+              >
+                <i class="fas fa-chevron-left"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="carousel-container">
+            <div class="carousel-track" id="servicesCarousel">
+              <!-- Card 1 -->
+              <div class="service-card-wrapper">
+                <div class="service-card h-100">
+                  <div class="image">
+                    <img
+                      src="assets/2024_03_26_11_09_17_alhmlat-altoaaoy.png"
+                      alt=""
+                    />
+                  </div>
+                  <h5>الندوات وورش العمل</h5>
+                  <p>تنظم الجمعية ندوات وورش عمل لنشر الوعي.</p>
+                </div>
+              </div>
+
+              <!-- Card 2 -->
+              <div class="service-card-wrapper">
+                <div class="service-card h-100">
+                  <img
+                    src="assets/2024_03_26_11_09_17_alhmlat-altoaaoy.png"
+                    alt=""
+                  />
+                  <h5>الشراكات الاجتماعية</h5>
+                  <p>تعزيز التعاون مع الجهات المختلفة.</p>
+                </div>
+              </div>
+
+              <!-- Card 3 -->
+              <div class="service-card-wrapper">
+                <div class="service-card h-100">
+                  <img
+                    src="assets/2024_03_26_11_09_17_alhmlat-altoaaoy.png"
+                    alt=""
+                  />
+                  <h5>العلاج النفسي الجماعي</h5>
+                  <p>جلسات دعم نفسي جماعي.</p>
+                </div>
+              </div>
+
+              <!-- Card 4 -->
+              <div class="service-card-wrapper">
+                <div class="service-card h-100">
+                  <img
+                    src="assets/2024_03_26_11_09_17_alhmlat-altoaaoy.png"
+                    alt=""
+                  />
+                  <h5>الخط الساخن</h5>
+                  <p>تقديم دعم نفسي فوري.</p>
+                </div>
+              </div>
+
+              <!-- Card 5 -->
+              <div class="service-card-wrapper">
+                <div class="service-card h-100">
+                  <img
+                    src="assets/2024_03_26_11_09_17_alhmlat-altoaaoy.png"
+                    alt=""
+                  />
+                  <h5>الاستشارات الفردية</h5>
+                  <p>جلسات دعم نفسي فردية.</p>
+                </div>
+              </div>
+
+              <!-- Card 6 -->
+              <div class="service-card-wrapper">
+                <div class="service-card h-100">
+                  <img
+                    src="assets/2024_03_26_11_09_17_alhmlat-altoaaoy.png"
+                    alt=""
+                  />
+                  <h5>برامج التوعية</h5>
+                  <p>برامج توعوية موجهة للمجتمع.</p>
+                </div>
+              </div>
+
+              <!-- Card 7 -->
+              <div class="service-card-wrapper">
+                <div class="service-card h-100">
+                  <img
+                    src="assets/2024_03_26_11_09_17_alhmlat-altoaaoy.png"
+                    alt=""
+                  />
+                  <h5>الدعم الأسري</h5>
+                  <p>مساندة الأسر نفسيًا.</p>
+                </div>
+              </div>
+
+              <!-- Card 8 -->
+              <div class="service-card-wrapper">
+                <div class="service-card h-100">
+                  <img
+                    src="assets/2024_03_26_11_09_17_alhmlat-altoaaoy.png"
+                    alt=""
+                  />
+                  <h5>خدمات المتابعة</h5>
+                  <p>متابعة الحالات بعد العلاج.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-center mt-5 but">
+            <a href="#" class="btn btn-primary rounded-pill px-5"> عرض الكل </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="cards-section mb-5">
+        <div class="up">
+          <p>شركاؤنا في النجاح</p>
+          <button>طلب شراكة</button>
+        </div>
+        <div class="cards-track">
+          <div class="card">
+            <img
+              src="assets/2025_03_04_01_52_02_almrkz-alotn-ltaazyz-alshh-alnfsyh.PNG"
+              alt=""
+            />
+          </div>
+          <div class="card">
+            <img
+              src="assets/2025_03_04_01_52_16_almrkz-alotn-ltaazyz-alshh-alnfsyh.PNG"
+              alt=""
+            />
+          </div>
+          <div class="card">
+            <img
+              src="assets/2025_03_04_01_52_27_almrkz-alotn-ltaazyz-alshh-alnfsyh.PNG"
+              alt=""
+            />
+          </div>
+          <div class="card">
+            <img
+              src="assets/2025_03_04_01_52_40_almrkz-alotn-ltaazyz-alshh-alnfsyh.PNG"
+              alt=""
+            />
+          </div>
+          <div class="card">
+            <img
+              src="assets/2025_03_04_01_52_53_almrkz-alotn-ltaazyz-alshh-alnfsyh.PNG"
+              alt=""
+            />
+          </div>
+          <div class="card">
+            <img
+              src="assets/2025_03_04_01_53_08_almrkz-alotn-ltaazyz-alshh-alnfsyh.PNG"
+              alt=""
+            />
+          </div>
+          <div class="card">
+            <img src="assets/2025_03_04_01_53_50_shsy.PNG" alt="" />
+          </div>
+          <div class="card">
+            <img
+              src="assets/2025_03_04_01_54_18_almrkz-alotn-ltaazyz-alshh-alnfsyh.PNG"
+              alt=""
+            />
+          </div>
+
+          <div class="card">
+            <img
+              src="assets/2025_03_04_01_52_02_almrkz-alotn-ltaazyz-alshh-alnfsyh.PNG"
+              alt=""
+            />
+          </div>
+          <div class="card">
+            <img
+              src="assets/2025_03_04_01_52_16_almrkz-alotn-ltaazyz-alshh-alnfsyh.PNG"
+              alt=""
+            />
+          </div>
+          <div class="card">
+            <img
+              src="assets/2025_03_04_01_52_27_almrkz-alotn-ltaazyz-alshh-alnfsyh.PNG"
+              alt=""
+            />
+          </div>
+          <div class="card">
+            <img
+              src="assets/2025_03_04_01_52_40_almrkz-alotn-ltaazyz-alshh-alnfsyh.PNG"
+              alt=""
+            />
+          </div>
+          <div class="card">
+            <img
+              src="assets/2025_03_04_01_52_53_almrkz-alotn-ltaazyz-alshh-alnfsyh.PNG"
+              alt=""
+            />
+          </div>
+          <div class="card">
+            <img
+              src="assets/2025_03_04_01_53_08_almrkz-alotn-ltaazyz-alshh-alnfsyh.PNG"
+              alt=""
+            />
+          </div>
+          <div class="card">
+            <img src="assets/2025_03_04_01_53_50_shsy.PNG" alt="" />
+          </div>
+          <div class="card">
+            <img
+              src="assets/2025_03_04_01_54_18_almrkz-alotn-ltaazyz-alshh-alnfsyh.PNG"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="counter-section">
+        <div class="container">
+          <div class="row g-1">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="counter-box">
+                <div class="counter-number">
+                  <span class="counter" data-target="498">0</span>
+                  <span class="plus">+</span>
+                </div>
+                <h3 class="counter-title">عدد الاستشارات</h3>
+                <p class="counter-subtitle">عنوان تجريبي</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="counter-box">
+                <div class="counter-number">
+                  <span class="counter" data-target="14">0</span>
+                  <span class="plus">+</span>
+                </div>
+                <h3 class="counter-title">عدد البرامج المنفذة</h3>
+                <p class="counter-subtitle">عنوان تجريبي</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="counter-box">
+                <div class="counter-number">
+                  <span class="counter" data-target="1080">0</span>
+                  <span class="plus">+</span>
+                </div>
+                <h3 class="counter-title">عدد المستفيدين</h3>
+                <p class="counter-subtitle">عنوان تجريبي</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="counter-box">
+                <div class="counter-number">
+                  <span class="counter" data-target="8">0</span>
+                  <span class="plus">+</span>
+                </div>
+                <h3 class="counter-title">عدد الأخصائيين</h3>
+                <p class="counter-subtitle">عنوان تجريبي</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="media-section py-5">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+          <h4 class="fw-bold media-title">المركز الإعلامي</h4>
+          <div class="d-flex gap-2">
+            <button class="btn btn-primary rounded-circle" id="mediaPrevBtn">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+            <button class="btn btn-primary rounded-circle" id="mediaNextBtn">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="news-slider-wrapper">
+          <div class="news-slider" id="newsSlider">
+            <div class="news-card-wrapper">
+              <div class="news-card card">
+                <div class="image">
+                  <img
+                  src="assets/2025_03_09_04_03_40_asdar-alsgl-altgary-llgmaay.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                </div>
+                <div class="card-body text-start">
+                  <h5 class="card-title">إصدار السجل التجاري للجمعية.</h5>
+                  <p class="card-text">
+                   في يوم 24 - ديسمبر - 2024
+نعلن في جمعية أمل للأزمات النفسية عن إصدار السجل التجاري للجمعية.
+هذه الخطوة تعكس التزام الجمعية بتقديم خدماتها وفق معايير الجودة والحوكمة، و
+                  </p>
+                  <a href="#" class="btn btn-info text-white rounded-pill px-4">
+                    اعرف المزيد
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="news-card-wrapper">
+              <div class="news-card card">
+                <div class="image">
+                  <img
+                  src="assets/2025_03_09_03_32_35_albrnamg-almhny-almtkhss-balaalag-alsloky-almaarfy-mnkhfd-alkthafh.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                </div>
+                <div class="card-body text-start">
+                  <h5 class="card-title">البرنامج المهني المتخصص بالعلاج السلوكي المعرفي منخفض الكثافه </h5>
+                  <p class="card-text">
+                   جانب من مشاركة الجمعية فعاليات ختام البرنامج المهني المتخصص بالعلاج السلوكي المعرفي منخفض الكثافه "LICBT " والذي نظمه المركز الوطني لتعزيز
+                  </p>
+                  <a href="#" class="btn btn-info text-white rounded-pill px-4">
+                    اعرف المزيد
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="news-card-wrapper">
+              <div class="news-card card">
+                <div class="image">
+                  <img
+                  src="assets/2025_03_09_03_42_45_thny-lldktor-hnd-alhrby.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                </div>
+                <div class="card-body text-start">
+                  <h5 class="card-title">تهنئة للدكتورة هند الحربي</h5>
+                  <p class="card-text">
+                   تتقدم جمعية أمل للازمات النفسية باسمى التهاني والتبريكات للدكتورة هند الحربي لحصولها على درجة دكتوراة علم النفس الاولى من نوعها في العالم
+                  </p>
+                  <a href="#" class="btn btn-info text-white rounded-pill px-4">
+                    اعرف المزيد
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="news-card-wrapper">
+              <div class="news-card card">
+                <div class="image">
+                  <img
+                  src="assets/2025_03_09_04_07_50_alyom-alaaalmy-llasr.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                </div>
+                <div class="card-body text-start">
+                  <h5 class="card-title">اليوم العالمي للأسرة </h5>
+                  <p class="card-text">
+                   يوم 2 يناير يوافق اليوم العالمي للأسرة.
+في جمعية أمل نؤمن بأهمية الأسرة باعتبارها أساس المجتمع ومصدر الأمان والحب.
+الأسرة ليست فقط روابط دم، بل هي روابط دعم وتفاهم
+                  </p>
+                  <a href="#" class="btn btn-info text-white rounded-pill px-4">
+                    اعرف المزيد
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="news-card-wrapper">
+              <div class="news-card card">
+                <div class="image">
+                  <img
+                  src="assets/2025_03_09_03_51_52_kdrathm-mkhtlf-lkn-athrhm-kbyr.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                </div>
+                <div class="card-body text-start">
+                  <h5 class="card-title">قدراتهم مختلفة، لكن أثرهم كبير</h5>
+                  <p class="card-text">
+                    
+يوم ٣ ديسمبر هو اليوم العالمي لذوي الإعاقة، اللي يذكرنا بأهمية توفير بيئة شاملة تدعم مواهب وقدرات ذوي الاحتياجات الخاصة.
+اليوم اللي يذكرنا نحتفل بكل شخص ما فيه
+                  </p>
+                  <a href="#" class="btn btn-info text-white rounded-pill px-4">
+                    اعرف المزيد
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="news-card-wrapper">
+              <div class="news-card card">
+                <div class="image">
+                  <img
+                  src="assets/2025_03_09_03_57_18_mltk-gazan-tttoaa.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                </div>
+                <div class="card-body text-start">
+                  <h5 class="card-title">ملتقى جازان تتطوع</h5>
+                  <p class="card-text">
+                   في 9 - ديسمبر - 2024.
+حضرنا نحن من جمعية أمل للأزمات النفسية ملتقى جازان تتطوع 2024 والذي تم فيه تكريم صاحب السمو الملكي الأمير محمد بن ناصر أمير منطقة جازان للمُلهمين
+                  </p>
+                  <a href="#" class="btn btn-info text-white rounded-pill px-4">
+                    اعرف المزيد
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-5 but">
+            <a href="#" class="btn btn-primary rounded-pill px-5"> عرض الكل </a>
+          </div>
+      </div>
+    </section>
+
+    <footer class="footer pt-5 text-white">
+      <div class="container">
+        <div class="row gy-4 align-items-start">
+          <div class="col-lg-3 col-md-12 text-center text-lg-end">
+            <img src="assets/logo.png" alt="logo" class="footer-logo" />
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <h5 class="mb-4 fw-bold">عن الجمعية</h5>
+            <ul class="list-unstyled footer-links">
+              <li><a href="#">عن الجمعية</a></li>
+              <li><a href="#">الخدمات الإلكترونية</a></li>
+              <li><a href="#">المبادرات</a></li>
+              <li><a href="#">التوظيف والتطوع</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <h5 class="mb-4 fw-bold">روابط مهمة</h5>
+            <ul class="list-unstyled footer-links">
+              <li><a href="#">اللوائح والسياسات</a></li>
+              <li><a href="#">المركز الإعلامي</a></li>
+              <li><a href="#">اتصل بنا</a></li>
+              <li><a href="#">الإحصائيات</a></li>
+              <li><a href="#">الشركاء</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <h5 class="mb-4 fw-bold">للتواصل معنا</h5>
+
+            <p class="mb-1">
+              <i class="bi bi-envelope me-2 text-info"></i>
+              البريد الإلكتروني :
+            </p>
+            <p class="text-light">hope.psy@outlook.com</p>
+
+            <p class="mb-1">
+              <i class="bi bi-telephone me-2 text-info"></i>
+              الهاتف :
+            </p>
+            <p class="text-light">+966591955655</p>
+
+            <div class="d-flex gap-3 mt-3 social-icons">
+              <a href="#"><i class="bi bi-whatsapp"></i></a>
+              <a href="#"><i class="bi bi-linkedin"></i></a>
+              <a href="#"><i class="bi bi-youtube"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-twitter-x"></i></a>
+              <a href="#"><i class="bi bi-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom text-center py-3 mt-4">
+        © hope 2025 - جميع الحقوق محفوظة
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
