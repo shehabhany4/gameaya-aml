@@ -1,26 +1,26 @@
-.hero{
-    width: 100%;
-    height: 30vh;
-    margin-top: 20vh;
-    background-image: url("/assets/2024_05_05_11_37_02_mn-nhn.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+.hero {
+  width: 100%;
+  height: 30vh;
+  margin-top: 20vh;
+  background-image: url(https://hope-psy.org.sa/uploads/2025_03_05_04_11_06_khdmat-algmaay.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 4% 1.5%;
+  p {
     color: white;
-    padding: 4% 1.5%;
-    p{
-        color: white;
-        font-size: 1.8em;
-        font-weight: 400;
-        span{
-            color: rgb(38, 148, 245);
-        }
+    font-size: 1.8em;
+    font-weight: 400;
+    span {
+      color: rgb(38, 148, 245);
     }
-    .links{
-        a{
-            text-decoration: none;
-            color: white;
-        }
+  }
+  .links {
+    a {
+      text-decoration: none;
+      color: white;
     }
+  }
 }
 
 .services-grid {
@@ -43,8 +43,13 @@
 }
 
 .service-card:hover {
-  background-image: linear-gradient(to top,rgb(91, 190, 243),rgb(4, 101, 204));
-  h5,p{
+  background-image: linear-gradient(
+    to top,
+    rgb(91, 190, 243),
+    rgb(4, 101, 204)
+  );
+  h5,
+  p {
     color: white;
   }
 }

@@ -1,30 +1,47 @@
-.hero{
-    width: 100%;
-    height: 30vh;
-    margin-top: 20vh;
-    background-image: url("/assets/2024_05_05_11_37_02_mn-nhn.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+.hero {
+  width: 100%;
+  height: 30vh;
+  margin-top: 20vh;
+  padding: 4% 1.5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(https://hope-psy.org.sa/uploads/2024_05_05_11_37_28_almrkz-alaaalamy.png);
+  .right {
     color: white;
-    padding: 4% 1.5%;
-    p{
+    p {
+      color: white;
+      font-size: 1.8em;
+      font-weight: 400;
+      span {
+        color: rgb(38, 148, 245);
+      }
+    }
+    .links {
+      a {
+        text-decoration: none;
         color: white;
-        font-size: 1.8em;
-        font-weight: 400;
-        span{
-            color: rgb(38, 148, 245);
-        }
+      }
     }
-    .links{
-        a{
-            text-decoration: none;
-            color: white;
-        }
+  }
+  .left {
+    width: 20vw;
+    color: white;
+    select {
+      padding: 2%;
+      color: gray;
+      border: none;
+      border-radius: 10px;
+      width: 100%;
+      option {
+        color: black;
+      }
     }
+  }
 }
 .media {
-    padding: 8vh 1%;
-    background-image: url("/assets/OIP.webp");
+  padding: 8vh 1%;
+  background-image: url("/assets/OIP.webp");
   h4 {
     color: #0e1b3d;
     margin-right: 48%;
@@ -132,27 +149,27 @@
     }
   }
 
-  .links{
+  .links {
     text-align: center;
     padding: 2%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2%;
-    a{
-        text-decoration: none;
-        background-color: rgb(78, 151, 246);
-        color: white;
-        width: 2em;
-        height: 2em;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 1.2em ;
-        &:hover{
-            background-color:rgb(7, 7, 135);
-        }
+    a {
+      text-decoration: none;
+      background-color: rgb(78, 151, 246);
+      color: white;
+      width: 2em;
+      height: 2em;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.2em;
+      &:hover {
+        background-color: rgb(7, 7, 135);
+      }
     }
   }
 
